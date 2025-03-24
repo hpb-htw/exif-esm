@@ -1,0 +1,45 @@
+{
+  "name": "exif-es6",
+  "version": "0.0.1-beta",
+  "description": "JavaScript library for reading EXIF image metadata",
+  "type": "module",
+  "main": "exif-es6.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist exif-es6*.tgz"
+  },
+  "files": [
+    "dist",
+    "*.ts"
+  ],
+  "directories": {
+    "example": "demo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hpb-htw/exif-es6"
+  },
+  "keywords": [
+    "exif"
+  ],
+  "author": "Jacob Seidelin",
+  "maintainers": [
+    "Roald de Vries"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hpb-htw/exif-es6/issues"
+  },
+  "homepage": "https://github.com/hpb-htw/exif-es6",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests",
+    "spec",
+    "example"
+  ],
+  "devDependencies": {
+    "mversion": "1.10.0"
+  }
+}
