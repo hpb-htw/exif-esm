@@ -1,4 +1,4 @@
-import {EXIF} from "../dist/exif-es6.js";
+import {EXIF} from "../dist/exif-esm.js";
 
 function initTestUploadFile() {
     const fileSelect = document.getElementById("fileSelect");

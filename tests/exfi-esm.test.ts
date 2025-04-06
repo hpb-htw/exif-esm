@@ -1,4 +1,4 @@
-import {EXIF} from "../lib/exif-es6.ts";
+import {EXIF} from "../lib/exif-esm.ts";
 import {expect, test} from "vitest";
 
 import {URL} from "node:url";

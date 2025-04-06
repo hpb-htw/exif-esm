@@ -1,4 +1,4 @@
-# Exif-es6
+# exif-esm
 
 Port the library [*exif-js*](https://github.com/exif-js/exif-js) in EcmaScript 2020
 
@@ -14,23 +14,23 @@ EXIF logic in this package is based on the EXIF standard v2.2 ([JEITA CP-3451, i
 
 ## Install
 
-Install `exif-es6` through [NPM](https://www.npmjs.com/#getting-started):
+Install `exif-esm` through [NPM](https://www.npmjs.com/#getting-started):
 
 ```shell
-npm install exif-es6 --save
+npm install exif-esm --save
 ```
  
 
 Then you can import it in your JavaScript:
 
 ```javascript
-import {EXIF} from './node_modules/exif-es6/dist/exif-es6.js'
+import {EXIF} from './node_modules/exif-esm/dist/exif-esm.js'
 ```
 
 If you use TypeScript, you can import TypeScript-module in your own file:
 
 ```typescript
-import {EXIF} from "./node_modules/exif-es6/lib/exif-es6.(j|c)s"; // ← 
+import {EXIF} from "./node_modules/exif-esm/lib/exif-esm.(j|c)s"; // ← 
 // which extension you use, depends on your TypeScript compiler/version etc.
 ```
 
