@@ -30,7 +30,7 @@ import {EXIF} from './node_modules/exif-esm/dist/exif-esm.js'
 If you use TypeScript, you can import TypeScript-module in your own file:
 
 ```typescript
-import {EXIF} from "./node_modules/exif-esm/lib/exif-esm.(j|c)s"; // ← 
+import {EXIF} from "./node_modules/exif-esm/lib/exif-esm[.(j|t)s]"; // ← 
 // which extension you use, depends on your TypeScript compiler/version etc.
 ```
 
