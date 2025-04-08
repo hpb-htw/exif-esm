@@ -1,6 +1,6 @@
 # exif-esm
 
-Port the library [*exif-js*](https://github.com/exif-js/exif-js) in EcmaScript 2020
+Port the library [*exif-js*](https://github.com/exif-js/exif-js) in EcmaScript Module
 
 A JavaScript library for reading [EXIF meta data](https://en.wikipedia.org/wiki/Exchangeable_image_file_format) from image files.
 
