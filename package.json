@@ -9,7 +9,7 @@
     "test": "npx vitest --config vitest.config.ts",
     "clean": "rm -rfv dist www coverage exif-esm*.tgz",
     "doc": "npx typedoc --options typedoc.config.js",
-    "deploy": "cat npmrc.template > .npmrc; npm publish",
+    "deploy": "cp npmrc.template .npmrc; npm publish",
     "post-deploy": "rm -r .npmrc"
   },
   "files": [
@@ -24,7 +24,7 @@
     "url": "git+https://github.com/hpb-htw/exif-esm.git"
   },
   "keywords": [
-    "exif"
+    "exif", "esm", "typescript"
   ],
   "author": "Jacob Seidelin",
   "maintainers": [
